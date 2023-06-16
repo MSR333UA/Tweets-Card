@@ -18,14 +18,6 @@ ul {
   text-decoration: none;
 }
 
-.container {
-  max-width: 1366px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .wrap {
   position: absolute;
   z-index: -1;

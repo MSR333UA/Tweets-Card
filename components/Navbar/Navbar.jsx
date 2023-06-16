@@ -3,7 +3,10 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Comforter } from "next/font/google";
 import styles from "./Navbar.module.css";
+
+const comforter = Comforter({ subsets: ["vietnamese"], weight: "400" });
 
 const links = [
   {
@@ -25,7 +28,7 @@ const Navbar = () => {
   return (
     <header className={styles.container}>
       <div className={styles.wrap}>
-        <Link href="/" className={styles.logo}>
+        <Link href="/" style={comforter.style} className={styles.logo}>
           MSR_dev
         </Link>
         <ul className={styles.links}>

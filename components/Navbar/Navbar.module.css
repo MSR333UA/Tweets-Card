@@ -14,8 +14,8 @@
   padding: 20px 50px;
 }
 .logo {
-  font-weight: bold;
-  font-size: 50px;
+  /* font-weight: 900; */
+  font-size: 70px;
 
   background: linear-gradient(to left, #c93c19, #4d00a5);
   /* linear-gradient for text */
@@ -29,6 +29,8 @@
   align-items: center;
   margin: auto;
   list-style-type: none;
+
+  padding: 0;
 }
 
 .link {
@@ -59,7 +61,6 @@
   text-transform: uppercase;
   transition: color 250ms linear;
 }
-
 
 .wrapper {
   width: 100%;
