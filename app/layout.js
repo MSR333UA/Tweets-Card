@@ -9,6 +9,9 @@ const openSans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Tweets Cards",
+  icon: {
+    url: "./public/MSR_logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {

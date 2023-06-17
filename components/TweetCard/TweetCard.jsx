@@ -11,8 +11,6 @@ const TweetCard = ({ id, user, avatar, tweets, followers, isFollowing }) => {
   const dispatch = useDispatch();
   const isLoading = useSelector(selectIsLoading);
 
-  console.log(id);
-
   const handleFollow = () => {
     dispatch(
       followUser(
@@ -26,12 +24,12 @@ const TweetCard = ({ id, user, avatar, tweets, followers, isFollowing }) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.imageWrapper}>
-        <img
+        <Image
           className={styles.image}
-          src={
-            "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/225.jpg"
-          }
+          src={avatar}
           alt={user}
+          width={65}
+          height={65}
         />
       </div>
 

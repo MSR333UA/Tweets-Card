@@ -23,7 +23,7 @@ const Tweets = () => {
         <DropdownFilter />
       </div>
 
-      <TweetsList />
+      <TweetsList  />
       {/* <ToTopBtn /> */}
     </main>
   );
