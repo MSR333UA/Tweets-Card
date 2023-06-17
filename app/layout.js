@@ -3,6 +3,7 @@ import "./globals.css";
 import { Open_Sans } from "next/font/google";
 import Footer from "@/components/Footer/Footer";
 import Image from "next/legacy/image";
+import { ReduxProvider } from "@/redux/provider";
 
 const openSans = Open_Sans({ subsets: ["latin"] });
 
@@ -26,7 +27,7 @@ export default function RootLayout({ children }) {
         </div>
         <div className="container">
           <Navbar />
-          {children}
+          <ReduxProvider>{children}</ReduxProvider>
           <Footer />
         </div>
       </body>
