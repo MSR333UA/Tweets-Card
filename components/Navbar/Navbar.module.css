@@ -2,7 +2,7 @@
   width: 100vw;
   margin-bottom: 30px;
   backdrop-filter: blur(5px);
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(73 61 143 / 40%);
 }
 .wrap {
   max-width: 1366px;
@@ -14,11 +14,9 @@
   padding: 20px 50px;
 }
 .logo {
-  /* font-weight: 900; */
   font-size: 70px;
 
   background: linear-gradient(to left, #c93c19, #4d00a5);
-  /* linear-gradient for text */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -46,13 +44,13 @@
 }
 
 .link:hover {
-  color: #ff8533;
+  color: #3d8793;
 }
 
 .linkActive {
   padding: 10px 20px;
   border-radius: 10px;
-  background-color: #5736a3;
+  background-color: #3d8793;
   color: #fff;
   font-size: 24px;
   font-weight: 600;

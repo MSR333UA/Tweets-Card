@@ -9,11 +9,10 @@ import { selectFilteredUsers } from "@/redux/selectors";
 const TweetsList = () => {
   const [page, setPage] = useState(1);
   const filteredUsers = useSelector(selectFilteredUsers);
-  // console.log(filteredUsers);
 
   const tweetsPerPage = filteredUsers.slice(0, page * 6);
   const isBtnHidden = page * 6 >= filteredUsers.length;
-  // console.log(tweetsPerPage);
+
   const handleLoadMore = () => {
     setPage((prevState) => prevState + 1);
   };

@@ -7,7 +7,7 @@
   padding: 10px 40px;
 
   color: #000000;
-  background-color: #fff;
+  background-color: rgb(224 223 233);
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   text-decoration: none;
@@ -19,5 +19,5 @@
 
 .link:hover,
 .link:focus {
-  color: #ff8533;
+  color: #3d8793;
 }

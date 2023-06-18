@@ -22,7 +22,6 @@ const links = [
 ];
 
 const Navbar = () => {
-  /* Get the current route */
   const currentRoute = usePathname();
 
   return (

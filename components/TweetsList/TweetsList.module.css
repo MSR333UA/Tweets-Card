@@ -23,13 +23,11 @@
   padding: 15px 25px;
 
   color: #fff;
-  background-color: #471ca9;
+  background-color: #3d8793;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   border-radius: 10px;
   border: none;
-
-  /* font-family: "Montserrat"; */
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -42,6 +40,6 @@
 }
 
 .btn:hover {
-  color: #ff8533;
+  color: #471ca9;
   background-color: #fff;
 }
