@@ -1,4 +1,7 @@
 .container {
+  position: fixed;
+  bottom: 0;
+
   width: 100vw;
   height: 50px;
   padding: 20px 50px;
@@ -16,6 +19,11 @@
   margin: auto;
 }
 
+.icon:hover {
+  transform: scale(1.5);
+  transition: transform 200ms ease-in-out;
+}
+
 .social {
   display: flex;
   align-items: center;
@@ -26,4 +34,3 @@
   opacity: 0.8;
   cursor: pointer;
 }
-
