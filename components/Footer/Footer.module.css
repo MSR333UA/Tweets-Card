@@ -19,6 +19,17 @@
   margin: auto;
 }
 
+.title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #002222;
+
+  @media screen and (max-width: 600px) {
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+
 .icon:hover {
   transform: scale(1.5);
   transition: transform 200ms ease-in-out;

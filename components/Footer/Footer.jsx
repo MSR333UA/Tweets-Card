@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={styles.container}>
       <div className={styles.wrap}>
-        <div>© 2023 MSR development. All rights reversed.</div>
+        <div  className={styles.title}>© 2023 MSR development. All rights reversed.</div>
         <div className={styles.social}>
           <Link href={"https://linkedin.com/in/matviivserhii"} target="_bland">
             <Image

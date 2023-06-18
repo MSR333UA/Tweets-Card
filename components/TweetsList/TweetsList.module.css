@@ -16,6 +16,9 @@
 }
 
 .btn {
+  position: sticky;
+  z-index: 3;
+
   display: flex;
   align-items: center;
   gap: 15px;

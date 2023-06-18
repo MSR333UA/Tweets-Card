@@ -11,7 +11,7 @@ const TweetsList = () => {
   const filteredUsers = useSelector(selectFilteredUsers);
 
   const tweetsPerPage = filteredUsers.slice(0, page * 6);
-  const isBtnHidden = page * 6 >= filteredUsers.length;
+  const isBtnHidden = page >= filteredUsers.length;
 
   const handleLoadMore = () => {
     setPage((prevState) => prevState + 1);
@@ -27,9 +27,11 @@ const TweetsList = () => {
         ))}
       </ul>
 
-      <button className={styles.btn} type="button" onClick={handleLoadMore}>
-        Load More
-      </button>
+      {isBtnHidden ? null : (
+        <button className={styles.btn} type="button" onClick={handleLoadMore}>
+          Load More
+        </button>
+      )}
     </>
   );
 };
