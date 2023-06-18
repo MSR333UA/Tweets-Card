@@ -14,21 +14,27 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Description
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The "Tweets" App is a Next.js-based single-page web application that
+incorporates routing to facilitate seamless navigation across its pages.
 
-## Learn More
+The functionality of this app includes:
 
-To learn more about Next.js, take a look at the following resources:
+- The app provides an interactive experience when users click on the "Follow" button.
+- The app allows for loading of additional users when users click on the "Load More" button.
+- Clicking the "Back to Home Page" button enables users to return to the home page.
+- Users can filter other users based on three distinct criteria.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- React
+- Next.js
+- Redux (toolkit)
+- JavaScript
+- HTML
+- CSS
 
-## Deploy on Vercel
+## Additional technologies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This app also uses the Axios library to work with the server, which performs GET and POST requests.
